@@ -13,7 +13,8 @@ public class AppTest {
 
         List<String> list = new ArrayList<>();
 
-        list = App.addEmployee(list,"Koushik");
+        list = App.addEmployee(list,"tiger");
+        list = App.addEmployee(list,"kion");
 
         assertEquals(1, list.size());
     }
