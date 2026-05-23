@@ -16,7 +16,7 @@ public class AppTest {
         list = App.addEmployee(list,"tiger");
         list = App.addEmployee(list,"kion");
 
-        assertEquals(1, list.size());
+        assertEquals(2, list.size());
     }
 
     @Test
